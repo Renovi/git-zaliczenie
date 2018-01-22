@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />	
+		
+	
+		
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		
+		<script type="text/javascript">
+		
+			var numer = 0;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function ustawslajd(nrslajdu)
+			{
+				clearTimeout(timer1);
+				clearTimeout(timer2);
+				numer = nrslajdu - 1;
+				
+				schowaj();
+				setTimeout("zmienslajd()", 500);
+				
+			}
+			
+			function schowaj()
+			{
+				$("#slider").fadeOut(500);
+			}
+		
+			function zmienslajd()
+			{
+				numer++; if (numer>5) numer=1;
+				
+				var plik = "<img src=\"Chopper/slajd" + numer + ".jpg\" />";
+				
+				document.getElementById("slider").innerHTML = plik;
+				$("#slider").fadeIn(500);
+				
+				timer1 = setTimeout("zmienslajd()", 5000);
+				timer2 = setTimeout("schowaj()", 4500);
+			
+			}
+			
+		</script>
+		
+	</head>
+	<body onload="zmienslajd()">
+	<div id="container">
+	
+		<div id="topbar">
+			<span class="img"><img src="logox3.jpg"></span></br>
+			<span class="bigtitle">Yamaha Motor Company</span>
+			<div style="height: 15px;"></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="menu">
+			<div class="option"><a href=index.html>Strona Główna</a></div>
+			<div class="option"><a href=chopper.html>Chopper/Cruiser</a></div>
+			<div class="option"><a href=cross.html>Cross</a></div>
+			<div class="option"><a href=quad.html>Quad</a></div>
+			<div class="option"><a href=sportowy.html>Sportowy</a></div>
+			<div class="option"><a href=turystyczny.html>Turystyczny</a></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="content">
+			<span class="middletitle"><center>Slajder ze zdjęciami</center></span>
+			<div class="dottedline"></div>
+			<center>
+			<span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+			<span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+			<span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+			<span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+			<span onclick="ustawslajd(5)" style="cursor:pointer;">[ 5 ]</span>
+			<div id="slider"></div>
+			Slajd 1 - Yamaha Drag Star 650
+			</br>
+			Yamaha Drag Star 650 na polskim (i nie tylko) rynku konkurowała z Suzuki Marauderem. 
+			Drag Stara wybierali ci, dla których cena nie była najważniejsza – jakością wykonania 
+			Yamaha biła konkurenta na głowę. Jeżeli sprzęt pochodzi z 1997 r., trzeba przyjrzeć się 
+			chromowi na szprychach i felgach. W tym roczniku kładziono go 0,15 zamiast 0,20 mm. 
+			Yamaha usunęła tę wadę w następnym roczniku.
+			</br></br>
+			Slajd 2 - Yamaha Drag Star XVS 125
+			</br>
+			Jeżeli jesteś poważnie zakręcony na punkcie chromu, Drag-Star to jest coś o czym powinieneś pomyśleć. 
+			Ten crusier, chociaż nie jest najszybszy w swojej klasie, może dostarczyć dużo satysfakcji posiadaczowi,
+			ze względu na piękny wygląd. Długie chromowane rury wydechowe, niska kierownica, duży zbiornik
+			i ogromne siedzenie to obowiązkowe elementy prawdziwego crusiera. Prowadzi się przyjemnie i lekko.
+			Dźwięk silnika dudni wcale nie przypominając o swojej pojemności. Osobnik o wzroście 180cm,
+			będzie czuł się bardzo dobrze na tym motocyklu, który pozwala nieźle wyciągnąć nogi do przodu.
+			</br></br>
+			Slajd 3 - Yamaha Midnight Star 1900
+			</br>
+			Nowoczesna lokomotywa w wersji motocyklowej, a może japońska przeróbka Cadillaca Eldorado z 1959 roku? 
+			Takie skojarzenia nasunęły się na pierwszy rzut oka, gdy patrzyłyśmy na klasycznego cruisera 
+			Yamaha XV 1900 Midnight Star. 
+			Po bliższych oględzinach okazuje się, że w każdy, najmniejszy nawet detal XV, konstruktorzy Yamahy włożyli ogrom pracy. 
+			Po chwili zaczynam doceniać tę dbałość o szczegóły i całą sylwetkę motocykla.
+			</br></br>
+			Slajd 4 - Yamaha Virago XVS 125
+			</br>
+			Virago to motocykl dla niewysokich kierowców. Sporo kobiet decyduje się na ten model, zaczynając przygodę z motocyklami. 
+			To jednak wcale nie ujmuje temu motocyklowi. Przeciwnie, jest to bardzo wygodna maszyna na krótkie odcinki, 
+			a także na niewielkie wycieczki. Wsiadając na ten motocykl masz poczucie pełnej kontroli. 
+			Jest bajecznie łatwy w prowadzeniu. Ma miękkie zawieszenie i wygodną kanapę.
+			</br></br>
+			Slajd 5 - Yamaha Virago XV 1100
+			</br>
+			Duży moment obrotowy ukryty w słusznych rozmiarów silniku podczepionym do wyjątkowo zgrabnej chopperowej konstrukcji - tak w skrócie określiłbym tą maszynę.
+			Silnik jest bardzo elastyczny i umożliwia dynamiczną jazdę. 86 Nm jest dostępnych praktycznie cały czas i pozwala na bardzo dobre przyspieszenia i komfortową jazdę.
+			Szerokie siodło jest jak wygodny fotel. Gdy dokupi się spacerówki dalekie wojaże to czysta przyjemność. Przelotowe prędkości grubo ponad setkę po autostradzie nie są żadnym problemem.
+			</center>
+		</div>
+		
+		<div id="footer">
+			Strona wykonana przez Dawida Kocińskiego
+		</div>
+		
+	</div>
+	</body>
+</html>

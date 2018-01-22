@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />	
+		
+	
+		
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		
+		<script type="text/javascript">
+		
+			var numer = 0;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function ustawslajd(nrslajdu)
+			{
+				clearTimeout(timer1);
+				clearTimeout(timer2);
+				numer = nrslajdu - 1;
+				
+				schowaj();
+				setTimeout("zmienslajd()", 500);
+				
+			}
+			
+			function schowaj()
+			{
+				$("#slider").fadeOut(500);
+			}
+		
+			function zmienslajd()
+			{
+				numer++; if (numer>5) numer=1;
+				
+				var plik = "<img src=\"Quad/slajd" + numer + ".jpg\" />";
+				
+				document.getElementById("slider").innerHTML = plik;
+				$("#slider").fadeIn(500);
+				
+				timer1 = setTimeout("zmienslajd()", 5000);
+				timer2 = setTimeout("schowaj()", 4500);
+			
+			}
+			
+		</script>
+		
+	</head>
+	<body onload="zmienslajd()">
+	<div id="container">
+	
+		<div id="topbar">
+			<span class="img"><img src="logox3.jpg"></span></br>
+			<span class="bigtitle">Yamaha Motor Company</span>
+			<div style="height: 15px;"></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="menu">
+			<div class="option"><a href=index.html>Strona Główna</a></div>
+			<div class="option"><a href=chopper.html>Chopper/Cruiser</a></div>
+			<div class="option"><a href=cross.html>Cross</a></div>
+			<div class="option"><a href=quad.html>Quad</a></div>
+			<div class="option"><a href=sportowy.html>Sportowy</a></div>
+			<div class="option"><a href=turystyczny.html>Turystyczny</a></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="content">
+			<span class="middletitle"><center>Slajder ze zdjęciami</center></span>
+			<div class="dottedline"></div>
+			<center>
+			<span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+			<span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+			<span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+			<span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+			<span onclick="ustawslajd(5)" style="cursor:pointer;">[ 5 ]</span>
+			<div id="slider"></div>
+			Slajd 1 - Yamaha YFZ450R / SE
+			</br>
+			Od zawodowców usłyszysz, że Yamaha YFZ450R to wybór numer jeden wśród zwycięskich kierowców. 
+			Podwozie o doskonałych właściwościach jezdnych i silnik 450 cm3 o niezwykłym przyspieszeniu 
+			zapewniają mu dziś pierwszą pozycję wśród quadów wyścigowych. Prowadzi się precyzyjnie, szybko
+			i bardzo przewidywalnie.
+			</br></br>
+			Slajd 2 - Yamaha YFM700R SPECIAL EDITION
+			</br>
+			Nasi inżynierowie wykorzystali przełomowe rozwiązania techniczne, aby zwiększyć moc silnika, 
+			zoptymalizować właściwości jezdne i zapewnić większą wydajność zawieszenia. Zastosowanie nowego 
+			tłoka i nowej głowicy silnika pozwoliło zwiększyć ciśnienie sprężania, a zmodyfikowane oprogramowanie 
+			układu zasilania i nowy, wyścigowy wałek rozrządu zwiększają maksymalną moc jednostki napędowej o 10%.
+			</br></br>
+			Slajd 3 - Yamaha GRIZZLY 700 EPS / EPS SE / 700
+			</br>
+			Solidny quad Grizzly zdobył reputację jednego z najmocniejszych quadów na świecie. 
+			Dzięki zastosowaniu nowego silnika o pojemności 708 cm3 mamy jeszcze więcej momentu 
+			obrotowego do wykorzystania przy pracy. Kompaktowe nadwozie jest teraz wyposażone w 
+			diodowe oświetlenie i halogenowe światło robocze, zapewniając jeszcze lepsze doświetlenie.
+			26-calowe koła gwarantują lepszą przyczepność i większą wytrzymałość..
+			</br></br>
+			Slajd 4 - KODIAK 700 EPS / EPS SE / 700
+			</br>
+			Kodiak 700 to pojazd użytkowy sprawdzający się w najcięższych warunkach. Zaprojektowany z myślą o rolnikach, leśnikach i zastosowaniach przemysłowych, zapewniający najwyższe osiągi w atrakcyjnej cenie.
+			Wyposażony w silnik o pojemności 708 cm3 i wysoki moment obrotowy, kompaktowe podwozie i miękkie, komfortowe siedzenie — ten niezwykły quad może przewieźć 140 kg ładunku, nie licząc kierowcy, i uciągnąć nawet 600 kg.
+			</br></br>
+			Slajd 5 - GRIZZLY 450 IRS
+			</br>
+			Jeśli w swojej pracy masz styczność z dużymi ładunkami i różnymi rodzajami podłoża, Grizzly 450 IRS będzie najlepszym, niezawodnym partnerem.
+			Wyposażono go w szereg inteligentnych rozwiązań technicznych, m.in. wszechstronny wyświetlacz LCD, układ przeniesienia napędu On-Command® z 3 trybami roboczymi, umożliwiający łatwe przełączanie między dostępnymi ustawieniami, oraz zawieszenie zapewniające doskonałe właściwości jezdne. Quad zużywa także bardzo mało paliwa i jest tani w utrzymaniu.
+			</center>
+		</div>
+		
+		<div id="footer">
+			Strona wykonana przez Dawida Kocińskiego
+		</div>
+		
+	</div>
+	</body>
+</html>
