@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />	
+		
+	
+		
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		
+		<script type="text/javascript">
+		
+			var numer = 0;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function ustawslajd(nrslajdu)
+			{
+				clearTimeout(timer1);
+				clearTimeout(timer2);
+				numer = nrslajdu - 1;
+				
+				schowaj();
+				setTimeout("zmienslajd()", 500);
+				
+			}
+			
+			function schowaj()
+			{
+				$("#slider").fadeOut(500);
+			}
+		
+			function zmienslajd()
+			{
+				numer++; if (numer>5) numer=1;
+				
+				var plik = "<img src=\"Cross/slajd" + numer + ".jpg\" />";
+				
+				document.getElementById("slider").innerHTML = plik;
+				$("#slider").fadeIn(500);
+				
+				timer1 = setTimeout("zmienslajd()", 5000);
+				timer2 = setTimeout("schowaj()", 4500);
+			
+			}
+			
+		</script>
+		
+	</head>
+	<body onload="zmienslajd()">
+	<div id="container">
+	
+		<div id="topbar">
+			<span class="img"><img src="logox3.jpg"></span></br>
+			<span class="bigtitle">Yamaha Motor Company</span>
+			<div style="height: 15px;"></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="menu">
+			<div class="option"><a href=index.html>Strona Główna</a></div>
+			<div class="option"><a href=chopper.html>Chopper/Cruiser</a></div>
+			<div class="option"><a href=cross.html>Cross</a></div>
+			<div class="option"><a href=quad.html>Quad</a></div>
+			<div class="option"><a href=sportowy.html>Sportowy</a></div>
+			<div class="option"><a href=turystyczny.html>Turystyczny</a></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="content">
+			<span class="middletitle"><center>Slajder ze zdjęciami</center></span>
+			<div class="dottedline"></div>
+			<center>
+			<span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+			<span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+			<span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+			<span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+			<span onclick="ustawslajd(5)" style="cursor:pointer;">[ 5 ]</span>
+			<div id="slider"></div>
+			Slajd 1 - Yamaha YZ450F
+			</br>
+			Szybki, zwrotny, o bezkonkurencyjnej dynamice – Yamaha YZ450F to kulminacja całej naszej wiedzy, 
+			doświadczenia i ogromnej pasji do jazdy terenowej. To ideał.
+			Modyfikacje w najnowszym modelu YZ450F wynoszą najmocniejsze elementy motocykla na jeszcze wyższy poziom.
+			Innowacyjny silnik z cylindrem pochylonym do tyłu został wyposażony w zmodyfikowany układ wtrysku i 
+			układ zapłonowy, które zwiększają jego moc użytkową, natomiast wijąca się rura wydechowa to tylko
+			jedna z wielu cech pozwalających scentralizować masę motocykla.
+			</br></br>
+			Slajd 2 - Yamaha WR250F
+			</br>
+			Firma Yamaha zawsze lubiła nieszablonowe podejście do rzeczy. 
+			Odmienność czyni motocykle Yamaha wyjątkowymi. Dlatego gdy spojrzy się na ustawioną „odwrotnie” 
+			głowicę zaawansowanego technicznie silnika nowego modelu WR250F, można stwierdzić, że to, 
+			co niektórym może wydawać się niepoprawne, dla konstruktorów Yamahy jest właściwym rozwiązaniem!
+			Dzięki dużej mocy i ultralekkiemu prowadzeniu nowy model WR250F odkrywa zalety najbardziej zaawansowanej 
+			technologii silnika i ramy, jaką dotąd widziano w świecie enduro.
+			</br></br>
+			Slajd 3 - Yamaha TT-R110E
+			</br>
+			Wiodąca na rynku seria TT-R obejmuje stylowy model TT-R110E, skierowany zarówno do początkujących kierowców,
+			jak i tych, którzy przesiadają się z mniejszego modelu TT-R50E.
+			Radykalne, crossowe nadwozie w kolorze niebieskim zostało zainspirowane odnoszącymi sukcesy w zawodach MXGP 
+			motocyklami rajdowymi Yamaha serii YZ. Przednie i tylne zawieszenie o dużym skoku ułatwia kierowanie motocyklem
+			i zwiększa komfort jazdy.
+			</br></br>
+			Slajd 4 - Yamaha TT-R50E
+			</br>
+			Motocykl Yamaha TT-R50E to spełnienie marzeń każdego dziecka.
+			Każdy element tego przyjaznego dla kierowcy motocykla został zaprojektowany z myślą o zapewnieniu 
+			jak najlepszej zabawy dzieciom w wieku od 4 do 7 lat. Dla ułatwienia obsługi, 4-suwowy, uruchamiany e
+			lektrycznie silnik o pojemności 50 cm3 został wyposażony w 3-biegową, półautomatyczną skrzynię. 
+			W celu zapewnienia rodzicom większej kontroli, model TT-R50E może być uruchomiony tylko po włożeniu 
+			kluczyka zapłonu do stacyjki.
+			</br></br>
+			Slajd 5 - Yamaha PW50
+			</br>
+			Yamaha jest niekwestionowanym liderem w branży mini motocykli dla dzieci. 2-suwowe motocykle PW50 
+			o pojemności 50 cm3 są niezwykle przyjazne dla kierowcy, dlatego nie dziwi ich wyjątkowa popularność
+			wśród dzieci i rodziców. Wśród funkcji bezpieczeństwa znajdziesz regulowaną przepustnicę, pozwalającą
+			rodzicom ograniczyć maksymalną prędkość w celu dostosowania osiągów do umiejętności kierowcy.
+			</center>
+		</div>
+		
+		<div id="footer">
+			Strona wykonana przez Dawida Kocińskiego
+		</div>
+		
+	</div>
+	</body>
+</html>
