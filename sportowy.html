@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />	
+		
+	
+		
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		
+		<script type="text/javascript">
+		
+			var numer = 0;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function ustawslajd(nrslajdu)
+			{
+				clearTimeout(timer1);
+				clearTimeout(timer2);
+				numer = nrslajdu - 1;
+				
+				schowaj();
+				setTimeout("zmienslajd()", 500);
+				
+			}
+			
+			function schowaj()
+			{
+				$("#slider").fadeOut(500);
+			}
+		
+			function zmienslajd()
+			{
+				numer++; if (numer>5) numer=1;
+				
+				var plik = "<img src=\"Sportowy/slajd" + numer + ".jpg\" />";
+				
+				document.getElementById("slider").innerHTML = plik;
+				$("#slider").fadeIn(500);
+				
+				timer1 = setTimeout("zmienslajd()", 5000);
+				timer2 = setTimeout("schowaj()", 4500);
+			
+			}
+			
+		</script>
+		
+	</head>
+	<body onload="zmienslajd()">
+	<div id="container">
+	
+		<div id="topbar">
+			<span class="img"><img src="logox3.jpg"></span></br>
+			<span class="bigtitle">Yamaha Motor Company</span>
+			<div style="height: 15px;"></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="menu">
+			<div class="option"><a href=index.html>Strona Główna</a></div>
+			<div class="option"><a href=chopper.html>Chopper/Cruiser</a></div>
+			<div class="option"><a href=cross.html>Cross</a></div>
+			<div class="option"><a href=quad.html>Quad</a></div>
+			<div class="option"><a href=sportowy.html>Sportowy</a></div>
+			<div class="option"><a href=turystyczny.html>Turystyczny</a></div>
+			<div style="clear:both"></div>
+		</div>
+		
+		<div id="content">
+			<span class="middletitle"><center>Slajder ze zdjęciami</center></span>
+			<div class="dottedline"></div>
+			<center>
+			<span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+			<span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+			<span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+			<span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+			<span onclick="ustawslajd(5)" style="cursor:pointer;">[ 5 ]</span>
+			<div id="slider"></div>
+			Slajd 1 - Yamaha YZF-R6
+			</br>
+			Jedna przejażdżka motocyklem R6 wystarczy, aby przekonać się, że ta maszyna narodziła się 
+			na torze wyścigowym. Technologia z MotoGP ma za zadanie dostarczyć niebywałych osiągów silnika i 
+			podwozia, zwykle zarezerwowanych dla zawodowych jeźdźców.
+			Krótkosuwowy silnik o niewiarygodnie wysokich obrotach uwalnia oszałamiającą moc, a technologie YCC-I 
+			(system zmiennej długości kolektorów dolotowych) i YCC-T (elektronicznie sterowana przepustnica) umożliwiają precyzyjną kontrolę jego pracy.
+			</br></br>
+			Slajd 2 - Yamaha YZF-R1
+			</br>
+			Wyposażony w technologię z serii Moto GP, model YZR-M1 z wałem korbowym w technologii crossplane, 
+			krótki rozstaw osi i zaawansowane systemy elektroniczne sprawią, że model R1 jest przedłużeniem twojego ciała, 
+			zapewniając niesamowite wrażenia z jazdy.
+			Zaprojektowana na bazie modelu YZR-M1, motocykla klasy MotoGP, nowa R1 została stworzona do jazdy po torze. 200 KM mocy, 199 
+			kg masy i rozstaw osi wynoszący 1405 mm dają pojęcie o osiągach tej fenomenalnej maszyny. Największe różnice nie są jednak widoczne gołym okiem.
+			</br></br>
+			Slajd 3 - Yamaha YZF-R3
+			</br>
+			Legendarne motocykle Yamaha serii R ustanawiają standardy w klasie supersport dzięki doskonałej stylistyce, 
+			zaawansowanej technologii i ekscytującym osiągom.
+			Przedstawiamy motocykl, który idealnie wkomponowuje się w gamę pojazdów supersport, między cieszącym się największym powodzeniem 
+			modelem YZF-R125 a wyścigowym modelem YZF-R6 — model YZF-R3! Niezależnie od tego, czy będzie to Twój pierwszy motocykl, czy przesiądziesz 
+			się na niego z klasy 125, możesz mieć pewność, że YZF-R3 został stworzony z taką samą dbałością o szczegóły, jak każdy motocykl serii R.
+			</br></br>
+			Slajd 4 - Yamaha YZF-R1M
+			</br>
+			Yamaha YZF-R1M to specjalna wersja modelu R1 o wyższej, fabrycznej specyfikacji. To motocykl, który pozwala odkryć prawdziwy potencjał każdego kierowcy.
+			6-osiowy moduł bezwładnościowy (IMU) zapewnia pełną kontrolę w momencie gwałtownego otwarcia przepustnicy, uślizgu koła, hamowania i ruszania. Dba nawet o to, 
+			aby przednie koło nie unosiło się w momencie gwałtownego przyspieszania. Moduł sterujący komunikacją z GPS umożliwia zapisywanie czasów poszczególnych okrążeń 
+			oraz danych telemetrycznych na tablecie wyposażonym w system operacyjny Android. 
+			</br></br>
+			Slajd 5 - Yamaha YZF-R125 / ABS
+			</br>
+			Ten model zapewni wszystko, o czym kiedykolwiek marzyłeś… i jeszcze więcej! Sprawdź opinie w Internecie i porównaj rywali. Szybko się przekonasz,
+			że żaden inny model klasy 125 cm3 nie da ci tego, co najnowsza Yamaha YZF-R125.
+			Motocykl został zaprojektowany w oparciu o tą samą zaawansowaną technologię, co modele serii R o większej pojemności, które należą do najbardziej 
+			szanowanych motocykli na ulicy i na torze.
+			</center>
+			
+		</div>
+		
+		<div id="footer">
+			Strona wykonana przez Dawida Kocińskiego
+		</div>
+		
+	</div>
+	</body>
+</html>
