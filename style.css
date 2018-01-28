@@ -16,8 +16,6 @@ body
 
 #menu
 {
-	border-style: solid;
-	border-color: red;
 	text-align: center; 
 	background-color: #dedede;
 	margin-top: 20px;
@@ -28,8 +26,6 @@ body
 #topbar
 {
 	text-align: center;
-	border-style: solid;
-	border-color: red;
 	background-color: #dedede;
 	color: red;
 	padding: 10px;
@@ -40,8 +36,6 @@ body
 
 #content
 {
-	border-style: solid;
-	border-color: red;
 	margin-top: 25px;
 	padding: 40px;
 	margin-bottom: 10px;
