@@ -1,4 +1,3 @@
-#GIT-ZALICZENIE
-#TITLE
+# GIT-ZALICZENIE
 Website made for the programming tools laboratory
 
