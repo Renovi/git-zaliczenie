@@ -4,27 +4,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" type="text/css" />	
-		
-	
-		
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		
 		<script type="text/javascript">
-		
 			var numer = 0;
-			
 			var timer1 = 0;
 			var timer2 = 0;
-			
 			function ustawslajd(nrslajdu)
 			{
 				clearTimeout(timer1);
 				clearTimeout(timer2);
 				numer = nrslajdu - 1;
-				
 				schowaj();
 				setTimeout("zmienslajd()", 500);
-				
 			}
 			
 			function schowaj()
@@ -35,19 +26,13 @@
 			function zmienslajd()
 			{
 				numer++; if (numer>5) numer=1;
-				
 				var plik = "<img src=\"Cross/slajd" + numer + ".jpg\" />";
-				
 				document.getElementById("slider").innerHTML = plik;
 				$("#slider").fadeIn(500);
-				
 				timer1 = setTimeout("zmienslajd()", 5000);
 				timer2 = setTimeout("schowaj()", 4500);
-			
 			}
-			
 		</script>
-		
 	</head>
 	<body onload="zmienslajd()">
 	<div id="container">
@@ -58,7 +43,6 @@
 			<div style="height: 15px;"></div>
 			<div style="clear:both"></div>
 		</div>
-		
 		<div id="menu">
 			<div class="option"><a href=index.html>Strona Główna</a></div>
 			<div class="option"><a href=chopper.html>Chopper/Cruiser</a></div>
@@ -68,7 +52,6 @@
 			<div class="option"><a href=turystyczny.html>Turystyczny</a></div>
 			<div style="clear:both"></div>
 		</div>
-		
 		<div id="content">
 			<span class="middletitle"><center>Slajder ze zdjęciami</center></span>
 			<div class="dottedline"></div>
@@ -122,11 +105,9 @@
 			rodzicom ograniczyć maksymalną prędkość w celu dostosowania osiągów do umiejętności kierowcy.
 			</center>
 		</div>
-		
 		<div id="footer">
 			Strona wykonana przez Dawida Kocińskiego
 		</div>
-		
 	</div>
 	</body>
 </html>
