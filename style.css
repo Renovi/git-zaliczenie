@@ -1,6 +1,9 @@
 body
 {
-	background-color: white; 
+	background-image: url('moto.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
 	font-family: Verdana;
 	font-size: 20px;
 	color: C02010;
