@@ -18,6 +18,7 @@ body
 {
 	border-style: solid;
 	border-color: red;
+	opacity: 0.9;
 	text-align: center; 
 	background-color: #dedede;
 	margin-top: 20px;
@@ -32,6 +33,7 @@ body
 	border-color: red;
 	background-color: #dedede;
 	color: red;
+	opacity: 0.9;
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 25px;
@@ -42,6 +44,7 @@ body
 {
 	border-style: solid;
 	border-color: red;
+	opacity: 0.9;
 	margin-top: 25px;
 	padding: 40px;
 	margin-bottom: 10px;
