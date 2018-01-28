@@ -19,6 +19,9 @@ body
 
 #menu
 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 	border-style: solid;
 	border-color: red;
 	opacity: 0.9;
