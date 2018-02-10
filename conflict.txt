@@ -1,0 +1,202 @@
+dawdawdcommit e8a775a6073de16f0f1b000d80ab0cba46e81e47
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 21:03:01 2018 +0100
+
+    delete cruiser.html
+
+commit 2f6db52f2714509852c02ed2cc4bb8c5d5ef077c
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 21:02:25 2018 +0100
+
+    menu center
+
+commit 9cdc5e5828bf5aa7518a242d5b3ff23046479550
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 20:47:17 2018 +0100
+
+    delete chopper.html
+
+commit 5d30bfa364424f131054e0d358ad33b93e59f751
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 20:45:49 2018 +0100
+
+    delete turystyczny.html
+
+commit 629174c47b85ed420316588941bf85ef2b8a52f8
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 20:39:41 2018 +0100
+
+    add background img
+
+commit ba30d4d0f76b1ad15662de2064676d3e0536f4f7
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 20:34:29 2018 +0100
+
+    add opacity
+
+commit 9ee33e5b29922c045030411b27e3d3de73083daf
+Author: Roburs <lerwan971@gmail.com>
+Date:   Sun Jan 28 20:29:40 2018 +0100
+
+    update style.css
+
+commit d2d804cab93878678dff472b7ffed80d91b90a09
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 18:30:06 2018 +0100
+
+    modiefied clients.php
+
+commit ccdc255b0b9bdd40a6589840b14bf19fd2f7149f
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 16:25:43 2018 +0100
+
+    Repaired quad.html
+
+commit cfe343fb185045c6376a532411da88317d04f21a
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:46:14 2018 +0100
+
+    Deleted somefiles
+
+commit 9e410fb4cca2fbb04d64f17e2472ace1f3bd5b8c
+Merge: bbd62d9 ac33611
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:45:16 2018 +0100
+
+    Merge branch 'karol-php'
+
+commit ac33611e561327ab67399225c7ddeac254b3fe2b
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:44:26 2018 +0100
+
+    Deleted sportowy2.html
+
+commit bbd62d9177a7c50379a16b37c745ca72e5236715
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:43:09 2018 +0100
+
+    Repair sportowy2.html
+
+commit d4e34b5108357928c1d92443705f864ddb9f5ea9
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:36:00 2018 +0100
+
+    sportowy2.html fixed
+
+commit 7c4a9d6105f809f9d3a2f3b5a3bedd9c5056a361
+Merge: 0423c03 12820f7
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:26:25 2018 +0100
+
+    Merge branch 'master' into karol-php2
+
+commit ac901457469d1f7e8373e551d3b26bddebd52406
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:23:19 2018 +0100
+
+    sportowy2 modified v2
+
+commit 0423c0396eba1cd4f95592aba4f38c1740c48f15
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:22:51 2018 +0100
+
+    sportowy2 modified
+
+commit 12820f7516d3239a08ed9912e3f8bb4620329910
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:16:12 2018 +0100
+
+    added motory2.html
+
+commit 53f7429b945ecf36c390293136de98d4f4dcf9ed
+Merge: ed38a03 430dfde
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:09:55 2018 +0100
+
+    Merge branch 'karol-php'
+
+commit ed38a0316b79c3fa7ce0b63c6bc4a83e2a3e9b66
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:09:45 2018 +0100
+
+    edited sportowy2.html
+
+commit 430dfdebd575b3d57a00eb8019481cbb06d0d63b
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:09:15 2018 +0100
+
+    added sportowy2.html
+
+commit 3bc2e4ff1fc887d13085d4aed2d86f8e4cfb1711
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 15:07:03 2018 +0100
+
+    sportowy2.html added
+
+commit 2b38a6a318a15410dedca5dd4346c3498db4dd57
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 13:57:49 2018 +0100
+
+    add style.css to clients.php v2 - repair
+
+commit 3262841f73dbeeedbbab28313db595da23680130
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Sat Jan 27 13:54:24 2018 +0100
+
+    add style.css to clients.php
+
+commit 887d3b9235dd72dab808380e9b77c06284efd13d
+Author: Roburs <lerwan971@gmail.com>
+Date:   Mon Jan 22 18:01:42 2018 +0100
+
+    add opacity to moto.jpg
+
+commit f511be74e1a18507bc3dcec46cd8d51ce19f8b12
+Author: Roburs <lerwan971@gmail.com>
+Date:   Mon Jan 22 17:50:35 2018 +0100
+
+    remove oswiata.html wtf?
+
+commit 31f01ea54995e52dcc711b76dfca3bbb64782a9b
+Merge: 559f95a b0706b2
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 17:46:23 2018 +0100
+
+    Merge branch 'karol-php'
+
+commit b0706b288aff35fdade2abbd4526c0a76604202b
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 17:44:43 2018 +0100
+
+    change index.html add new menu
+
+commit 559f95ab98944ffd972fc02f6beb352c247f7534
+Merge: ed6d49d 9726166
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 17:26:08 2018 +0100
+
+    Merge branch 'karol-php'
+
+commit ed6d49d825ca2e94fe90153ef8030259078deae4
+Author: Roburs <lerwan971@gmail.com>
+Date:   Mon Jan 22 17:06:59 2018 +0100
+
+    first ver layout
+
+commit 9726166ef3225333f74f66f9235147267dfd9a4b
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 16:51:17 2018 +0100
+
+    change filename from index.php to clients.php
+
+commit f7541206342fe88fecc38c889eb611f777e272ff
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 16:28:31 2018 +0100
+
+    Connect to database and repair charset - UTF 8
+
+commit 17adc55f3a9d6927cfb3a090e4fad3a554639456
+Author: Kunislaw <weyna.karol@gmail.com>
+Date:   Mon Jan 22 15:09:12 2018 +0100
+
+    First commit - add README.md
